@@ -476,6 +476,7 @@
     "accounting": {
       "Accrual (periodic)": "Akruální (periodické)",
       "Accrual (upfront)": "Akruální (předem)",
+      "ACC_DEF_REV_AM": "Časové rozlišení s odpisem odložených výnosů",
       "CASH_BASED": "Hotovost",
       "Cash": "Hotovost",
       "NONE": "Žádný",
@@ -578,6 +579,8 @@
       "Create Interest Refund": "Vytvořit vrácení úroků",
       "Create Journal Entries": "Vytvářejte záznamy deníku",
       "Create Loan Product": "Vytvořte produkt půjčky",
+      "Create Loan Product (Classic)": "Vytvořit úvěrový produkt (klasický)",
+      "Create Loan Product (Convenient)": "Vytvořit úvěrový produkt (pohodlný)",
       "Create Office": "Vytvořit Office",
       "Create Payment Type": "Vytvořit typ platby",
       "Create Preference": "Vytvořit předvolbu",
@@ -741,6 +744,7 @@
       "Unassign Staff": "Zrušit přidělení personálu",
       "Undo": "vrátit",
       "Undo Rejection": "Zrušit odmítnutí",
+      "Undo Reset": "Vrátit reset",
       "Undo Transfer": "Vrátit zpět převod",
       "Unpin": "Odepnout",
       "Update Default Savings": "Aktualizovat výchozí úspory",
@@ -772,7 +776,8 @@
       "Yes": "Ano",
       "undo_account_transfer": "Vrátit převod účtu",
       "All": "Vše",
-      "Pause Breach": "Pozastavit porušení"
+      "Pause Breach": "Pozastavit porušení",
+      "Resume Breach": "Obnovení porušení"
     },
     "catalogs": {
       "% Amount": "% Amount",
@@ -1121,6 +1126,10 @@
     },
     "heading": {
       "Breach Actions": "Porušení Akce",
+      "Delinquency & Breach": "Delikvence a porušení",
+      "Interest": "Úrok",
+      "Multi-step form": "Vícekrokový formulář",
+      "Loan product creation": "Vytvoření úvěrového produktu",
       "Near Breach Actions": "Blížící se porušení Akce",
       "About Us": "O Nás",
       "Account Information": "Informace o účtu",
@@ -1554,6 +1563,7 @@
       "Unassign Role": "Zrušit přiřazení role",
       "Unassign Staff": "Zrušit přidělení personálu",
       "Undo": "vrátit",
+      "Undo Reset": "Vrátit reset",
       "Undo Transaction": "Vrátit zpět transakci",
       "Upcoming Charges": "Nadcházející poplatky",
       "Upload": "nahrát",
@@ -1584,10 +1594,14 @@
       "undo_account_transfer": "Vrátit převod účtu",
       "Loan Breach Actions": "Akce porušení úvěru",
       "No Breach Actions": "Žádné akce při porušení",
-      "Pause Timeline": "Časová osa pauz"
+      "Pause Timeline": "Časová osa pauz",
+      "Location Map": "Mapa polohy"
     },
     "inputs": {
-      "Breach Actions": "Porušení Akce",
+      "Annual interest rate": "Roční úroková sazba",
+      "Annual interest rate by loan cycle": "Roční úroková sazba podle úvěrového cyklu",
+      "Annual interest rate frequency": "Frekvence roční úrokové sazby",
+      "Breach Actions": "Akce porušení",
       "# Remittance": "# Remitence",
       "# Senders": "# Odesílatelé",
       "ACCOUNTING": "ÚČETNICTVÍ",
@@ -2005,6 +2019,7 @@
       "Discount Default": "Výchozí sleva",
       "Discount External Id": "Externí id slevy",
       "Discount External Id must differ from External Id": "Externí id slevy se musí lišit od externího id",
+      "Discount Fee Adjustment": "Úprava poplatku za slevu",
       "Discount Fee Balance": "Zůstatek diskontního poplatku",
       "Discount must be greater than or equal to 0": "Sleva musí být větší nebo rovna 0",
       "Display Name": "Zobrazovaný název",
@@ -2221,6 +2236,7 @@
       "Illegible document": "Nečitelný dokument",
       "Images": "snímky",
       "Import Time": "Čas importu",
+      "In Arrears": "V Prodlení",
       "In Balance": "Vyrovnáno",
       "In Multiples Of": "V násobcích",
       "In advance": "Dopředu",
@@ -2496,6 +2512,7 @@
       "Multiple Debit Entries Allowed": "Je povoleno více debetních záznamů",
       "Municipality": "Obec",
       "N/A": "N/A",
+      "Net Disbursal Amount": "Čistá vyplacená částka",
       "New": "Nové",
       "NID": "Národní ID",
       "Name": "název",
@@ -2818,6 +2835,7 @@
       "Revised Meeting Date": "Upravený termín schůzky",
       "Role": "Role",
       "Role Description": "Popis role",
+      "Schedule": "Splátkový kalendář",
       "System": "Systém",
       "This role provides all application permissions": "Tato role poskytuje všechna oprávnění aplikace.",
       "Role Name": "Název role",
@@ -2915,6 +2933,7 @@
       "Standing Instruction Type": "Typ trvalého pokynu",
       "Standing Instructions": "Stálé instrukce",
       "Start Date": "Datum zahájení",
+      "Start new period": "Zahájit nové období",
       "Start Time": "Doba spuštění",
       "Started On": "Zahájeno dne",
       "Starting date": "Počáteční datum",
@@ -2995,6 +3014,8 @@
       "Total Interest Earned": "Celkový získaný úrok",
       "Total No. of Shares": "Celkový počet akcií",
       "Total Number of Shares": "Celkový počet akcií",
+      "Total Outstanding": "Celkem nesplaceno",
+      "Total Overdue": "Celkem po splatnosti",
       "Total Paid": "Celkem zaplaceno",
       "Total Paid Principal": "Celkově splacená jistina",
       "Total Payment": "Celková platba",
@@ -3148,7 +3169,6 @@
       "to": "na",
       "valid": "platný",
       "Active Pause": "Aktivní pauza",
-      "Breach Actions": "Akce porušení",
       "days": "dní",
       "Duration": "Doba trvání",
       "Expired": "Vypršela",
@@ -3161,7 +3181,11 @@
       "Scheduled": "Naplánováno",
       "Today": "Dnes",
       "Total Actions": "Celkové akce",
-      "Total Days Paused": "Celkový počet dní v pauze"
+      "Total Days Paused": "Celkový počet dní v pauze",
+      "Credit Profile": "Kreditní profil",
+      "Borrower": "Dlužník",
+      "Latitude": "Zeměpisná šířka",
+      "Longitude": "Zeměpisná délka"
     },
     "links": {
       "Community": "Společenství",
@@ -3339,6 +3363,7 @@
       "Withdrawn": "Stažený"
     },
     "dialogContext": {
+      "Are you sure you want to resume the breach pause": "Opravdu chcete obnovit porušení?",
       "Are you sure you want Unassign Staff": "Opravdu chcete odebrat přiřazení zaměstnance?",
       "Are you sure you want to calculate interest ?": "Jste si jisti, že chcete spočítat zájem?",
       "Are you sure you want to post interest ?": "Jste si jisti, že chcete zveřejnit zájem?",
@@ -3347,6 +3372,7 @@
       "Are you sure you want to waive charge with id:": "Určitě se chcete vzdát poplatku s ID:",
       "Are you sure you want to waive charges": "Opravdu chcete odpustit {{ count }} poplatků",
       "Are you sure you want to undo this transaction ?": "Jste si jisti, že chcete tuto transakci vrátit zpět?",
+      "Are you sure you want to undo last reset action": "Opravdu chcete vrátit poslední akci resetu?",
       "Are you sure you want recover from Guarantor": "Jste si jisti, že se chcete zotavit z ručitele",
       "Are you sure you want recover the Original Schedule": "Jste si jisti, že chcete obnovit původní rozvrh",
       "Are you sure you want resume the Delinquency Classification for Loan": "Jste si jisti, že chcete pokračovat v klasifikaci delikvence pro půjčku",
@@ -3370,6 +3396,8 @@
       "undo_account_transfer": "Opravdu chcete vrátit tento převod účtu?"
     },
     "text": {
+      "Max": "Max",
+      "Hidden variables and predefined values are included in the final payload automatically.": "Skryté proměnné a předdefinované hodnoty jsou automaticky zahrnuty do konečného payloadu.",
       "No Breach Actions": "Žádné Porušení Akce",
       "No Near Breach Actions": "Žádné Blížící se porušení Akce",
       "A": "A",
@@ -3743,6 +3771,12 @@
       "Loan Documents": "Dokumenty o půjčce",
       "Loan Originators": "Poskytovatelé úvěrů",
       "Loan Originators are associated with loan accounts": "Poskytovatelé půjček jsou spojeni s účty půjček",
+      "Visible Columns": "Viditelné sloupce",
+      "No columns selected": "Nebyly vybrány žádné sloupce",
+      "Loan Fields": "Pole úvěru",
+      "Data Tables": "Datové tabulky",
+      "No data tables": "Nebyly nalezeny žádné datové tabulky",
+      "Failed to load": "Načtení se nezdařilo",
       "Loan Products": "Úvěrové produkty",
       "Loan Provisioning Criteria Organization": "Definujte kritéria pro poskytování úvěrů pro organizaci",
       "Loan Reschedules": "Termíny půjček",
@@ -3975,6 +4009,10 @@
       "Table": "Stůl",
       "Tax Components": "Složky daně",
       "Tellers": "Věštci",
+      "Template defaults are preloaded": "Výchozí hodnoty šablony jsou předvyplněny",
+      "Select a product below": "Vyberte produkt níže",
+      "Upcoming": "Nadcházející",
+      "Complete control over every aspect of product behavior": "Úplná kontrola nad každým aspektem chování produktu — od moratoria a subvencí až po struktury s více tranšemi, pravidla rozdělování plateb a mnohem více.",
       "Template I am trying to use": "Toto je šablona, ​​kterou se snažím použít. Je to v pořádku?",
       "Templates": "Šablony",
       "Tenant": "Nájemce",
@@ -4128,7 +4166,22 @@
       "withoutCategory": "Bez kategorie",
       "Maker-Checker principle requires every tasks": "Princip Maker-Checker vyžaduje, aby každý úkol prováděli dva lidé, aby se snížila pravděpodobnost chyb a zneužití. Jedna osoba proces iniciuje a druhá jej dokončí.",
       "Breach Actions": "Akce porušení",
-      "“Maker-Checker” principle requires every tasks": "Princip „Maker-Checker“ vyžaduje, aby každý úkol prováděli dva lidé, aby se snížila pravděpodobnost chyb a zneužití. Jedna osoba proces iniciuje a druhá jej dokončí."
+      "“Maker-Checker” principle requires every tasks": "Princip „Maker-Checker“ vyžaduje, aby každý úkol prováděli dva lidé, aby se snížila pravděpodobnost chyb a zneužití. Jedna osoba proces iniciuje a druhá jej dokončí.",
+      "SavingsAccountsStayedLockedBusinessEvent": "Savings Accounts Stayed Locked Business Event",
+      "WorkingCapitalLoanDisbursalTransactionBusinessEvent": "Working Capital Loan Disbursal Transaction Business Event",
+      "WorkingCapitalLoanUndoDisbursalTransactionBusinessEvent": "Working Capital Loan Undo Disbursal Transaction Business Event",
+      "WorkingCapitalLoanRepaymentTransactionBusinessEvent": "Working Capital Loan Repayment Transaction Business Event",
+      "WorkingCapitalLoanCreditBalanceRefundTransactionBusinessEvent": "Working Capital Loan Credit Balance Refund Transaction Business Event",
+      "WorkingCapitalLoanDiscountFeeTransactionBusinessEvent": "Working Capital Loan Discount Fee Transaction Business Event",
+      "WorkingCapitalLoanDiscountFeeAdjustmentTransactionBusinessEvent": "Working Capital Loan Discount Fee Adjustment Transaction Business Event",
+      "WorkingCapitalLoanChargeAdjustmentPreBusinessEvent": "Working Capital Loan Charge Adjustment Pre Business Event",
+      "WorkingCapitalLoanChargeAdjustmentPostBusinessEvent": "Working Capital Loan Charge Adjustment Post Business Event",
+      "SavingsAccountForceWithdrawalBusinessEvent": "Savings Account Force Withdrawal Business Event",
+      "All Loan Products": "Všechny úvěrové produkty",
+      "All Offices": "Všechny kanceláře",
+      "No loan was found": "Nebyl nalezen žádný úvěr",
+      "SearchByLoan": "Hledat podle čísla účtu, dlužníka nebo produktu",
+      "Map tiles unavailable": "Mapové dlaždice nejsou dostupné"
     },
     "permissions": {
       "actions": {
@@ -4462,6 +4515,27 @@
         "RECURRINGDEPOSITACCOUNT": "Účet pravidelného spoření",
         "ACCOUNTTRANSFER": "Převod účtu",
         "SSBENEFICIARYTPT": "Self-Service příjemci TPT"
+      }
+    },
+    "cbild": {
+      "creditProfile": {
+        "ficoScore": "Skóre FICO",
+        "riskBand": "Rizikové pásmo",
+        "bureau": "Bureau",
+        "pulledAt": "Naposledy staženo",
+        "expiry": "Datum vypršení",
+        "delinquencies": "Prodlení",
+        "firstDelinquency": "První prodlení",
+        "none": "Žádné",
+        "yes": "Ano",
+        "scoreDropAlert": "FICO skóre kleslo",
+        "hasDelinquencies": "Klient má prodlení",
+        "tradelines": "Úvěrové linky",
+        "noTradelines": "Žádné úvěrové linky",
+        "balance": "Zůstatek",
+        "latePayments": "Opožděné platby",
+        "noData": "Kreditní profil není k dispozici",
+        "noDataHint": "Spusťte kontrolu bureau"
       }
     }
   },

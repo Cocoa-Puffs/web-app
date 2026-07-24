@@ -475,6 +475,7 @@
     "accounting": {
       "Accrual (periodic)": "उपार्जन (आवधिक)",
       "Accrual (upfront)": "उपार्जन (अगाडि)",
+      "ACC_DEF_REV_AM": "स्थगित राजस्व परिशोधन सहितको उपार्जन",
       "CASH_BASED": "नगद",
       "Cash": "नगद",
       "NONE": "कुनै पनि छैन",
@@ -577,6 +578,8 @@
       "Create Interest Refund": "ब्याज फिर्ता सिर्जना गर्नुहोस्",
       "Create Journal Entries": "जर्नल प्रविष्टिहरू सिर्जना गर्नुहोस्",
       "Create Loan Product": "ऋण उत्पादन सिर्जना गर्नुहोस्",
+      "Create Loan Product (Classic)": "Create Loan Product (Classic)",
+      "Create Loan Product (Convenient)": "Create Loan Product (Convenient)",
       "Create Office": "कार्यालय सिर्जना गर्नुहोस्",
       "Create Payment Type": "भुक्तानी प्रकार सिर्जना गर्नुहोस्",
       "Create Preference": "प्राथमिकता सिर्जना गर्नुहोस्",
@@ -740,6 +743,7 @@
       "Unassign Staff": "कर्मचारी नियुक्ति रद्द गर्नुहोस्",
       "Undo": "पूर्वकार्य",
       "Undo Rejection": "अस्वीकार अनडू गर्नुहोस्",
+      "Undo Reset": "रिसेट पूर्ववत गर्नुहोस्",
       "Undo Transfer": "स्थानान्तरण अनडू गर्नुहोस्",
       "Unpin": "अनपिन गर्नुहोस्",
       "Update Default Savings": "पूर्वनिर्धारित बचत अद्यावधिक गर्नुहोस्",
@@ -771,7 +775,8 @@
       "Yes": "हो",
       "undo_account_transfer": "खाता स्थानान्तरण रद्द गर्नुहोस्",
       "All": "सबै",
-      "Pause Breach": "उल्लङ्घन रोक्नुहोस्"
+      "Pause Breach": "उल्लङ्घन रोक्नुहोस्",
+      "Resume Breach": "उल्लंघन पुनः सुरु गर्नुहोस्"
     },
     "catalogs": {
       "% Amount": "रकम",
@@ -1119,6 +1124,10 @@
     },
     "heading": {
       "Breach Actions": "उल्लंघन कार्यहरू",
+      "Delinquency & Breach": "अपराध र उल्लंघन",
+      "Interest": "ब्याज",
+      "Multi-step form": "Multi-step form",
+      "Loan product creation": "Loan product creation",
       "Near Breach Actions": "नजिकको उल्लंघन कार्यहरू",
       "About Us": "हाम्रो बारेमा",
       "Account Information": "खाता जानकारी",
@@ -1553,6 +1562,7 @@
       "Unassign Role": "भूमिका अनअसाइन गर्नुहोस्",
       "Unassign Staff": "कर्मचारी नियुक्ति रद्द गर्नुहोस्",
       "Undo": "पूर्ववत गर्नुहोस्",
+      "Undo Reset": "रिसेट पूर्ववत गर्नुहोस्",
       "Undo Transaction": "लेनदेन पूर्ववत गर्नुहोस्",
       "Upcoming Charges": "आगामी शुल्कहरू",
       "Upload": "अपलोड गर्नुहोस्",
@@ -1583,10 +1593,14 @@
       "undo_account_transfer": "खाता स्थानान्तरण रद्द गर्नुहोस्",
       "Loan Breach Actions": "ऋण उल्लङ्घन कार्यहरू",
       "No Breach Actions": "कुनै उल्लंघन कार्यहरू छैनन्",
-      "Pause Timeline": "रोकावट समयरेखा"
+      "Pause Timeline": "रोकावट समयरेखा",
+      "Location Map": "स्थान नक्सा"
     },
     "inputs": {
-      "Breach Actions": "उल्लंघन कार्यहरू",
+      "Annual interest rate": "Annual interest rate",
+      "Annual interest rate by loan cycle": "Annual interest rate by loan cycle",
+      "Annual interest rate frequency": "Annual interest rate frequency",
+      "Breach Actions": "उल्लङ्घन कार्यहरू",
       "# Remittance": "# रेमिट्यान्स",
       "# Senders": "# पठाउनेहरू",
       "ACCOUNTING": "लेखा",
@@ -2004,6 +2018,7 @@
       "Discount Default": "छुट पूर्वनिर्धारित",
       "Discount External Id": "छुटको बाह्य आईडी",
       "Discount External Id must differ from External Id": "छुटको बाह्य आईडी बाह्य आईडी भन्दा फरक हुनुपर्छ",
+      "Discount Fee Adjustment": "छुट शुल्क समायोजन",
       "Discount Fee Balance": "छुट शुल्क मौज्दात",
       "Discount must be greater than or equal to 0": "छुट ० वा त्योभन्दा बढी हुनुपर्छ",
       "Display Name": "प्रदर्शन नाम",
@@ -2220,6 +2235,7 @@
       "Illegible document": "नपढ्न सकिने कागजात",
       "Images": "छविहरू",
       "Import Time": "समय आयात गर्नुहोस्",
+      "In Arrears": "बकाया",
       "In Balance": "सन्तुलित",
       "In Multiples Of": "को धेरै मा",
       "In advance": "अग्रिम",
@@ -2495,6 +2511,7 @@
       "Multiple Debit Entries Allowed": "बहु डेबिट प्रविष्टिहरूलाई अनुमति छ",
       "Municipality": "नगरपालिका",
       "N/A": "N/A",
+      "Net Disbursal Amount": "खुद वितरण रकम",
       "New": "नयाँ",
       "NID": "राष्ट्रिय परिचयपत्र",
       "Name": "नाम",
@@ -2817,6 +2834,7 @@
       "Revised Meeting Date": "परिमार्जित बैठक मिति",
       "Role": "भूमिका",
       "Role Description": "भूमिका विवरण",
+      "Schedule": "Schedule",
       "System": "प्रणाली",
       "This role provides all application permissions": "यो भूमिकाले सबै अनुप्रयोग अनुमतिहरू प्रदान गर्दछ।",
       "Role Name": "भूमिकाको नाम",
@@ -2914,6 +2932,7 @@
       "Standing Instruction Type": "स्थायी निर्देशन प्रकार",
       "Standing Instructions": "स्थायी निर्देशनहरू",
       "Start Date": "सुरू मिति",
+      "Start new period": "नयाँ अवधि सुरु गर्नुहोस्",
       "Start Time": "सुरु समय",
       "Started On": "मा सुरु भयो",
       "Starting date": "सुरु हुने मिति",
@@ -2994,6 +3013,8 @@
       "Total Interest Earned": "कुल ब्याज कमाइयो",
       "Total No. of Shares": "शेयर को कुल संख्या",
       "Total Number of Shares": "शेयर को कुल संख्या",
+      "Total Outstanding": "कुल बाँकी",
+      "Total Overdue": "कुल म्याद गुज्रेको",
       "Total Paid": "कुल भुक्तान",
       "Total Paid Principal": "कुल भुक्तान गरिएको मूलधन",
       "Total Payment": "कुल भुक्तानी",
@@ -3147,7 +3168,6 @@
       "to": "को",
       "valid": "मान्य",
       "Active Pause": "सक्रिय रोकावट",
-      "Breach Actions": "उल्लङ्घन कार्यहरू",
       "days": "दिन",
       "Duration": "अवधि",
       "Expired": "समाप्त",
@@ -3160,7 +3180,11 @@
       "Scheduled": "तालिकाबद्ध",
       "Today": "आज",
       "Total Actions": "कुल कार्यहरू",
-      "Total Days Paused": "कुल रोकिएका दिनहरू"
+      "Total Days Paused": "कुल रोकिएका दिनहरू",
+      "Credit Profile": "क्रेडिट प्रोफाइल",
+      "Borrower": "ऋणी",
+      "Latitude": "अक्षांश",
+      "Longitude": "देशान्तर"
     },
     "links": {
       "Community": "समुदाय",
@@ -3338,6 +3362,7 @@
       "Withdrawn": "फिर्ता लिन"
     },
     "dialogContext": {
+      "Are you sure you want to resume the breach pause": "के तपाईं उल्लंघन रोकी राखिएको अवस्था पुनः सुरु गर्न चाहनुहुन्छ?",
       "Are you sure you want Unassign Staff": "के तपाईं निश्चित हुनुहुन्छ कि तपाईंले कर्मचारीलाई अनपाइन्ट गर्न चाहनुहुन्छ?",
       "Are you sure you want to calculate interest ?": "के तपाईं निश्चित हुनुहुन्छ कि तपाईं ब्याजहरू गणना गर्न चाहनुहुन्छ?",
       "Are you sure you want to post interest ?": "के तपाईं निश्चित हुनुहुन्छ कि तपाईं ब्याज पोस्ट गर्न चाहनुहुन्छ?",
@@ -3345,6 +3370,7 @@
       "Disable withhold tax for this account ?": "के तपाईं निश्चित हुनुहुन्छ कि तपाईं यस खातामा कर निर्वाचन गर्न चाहनुहुन्छ?",
       "Are you sure you want to waive charge with id:": "के तपाईं निश्चित हुनुहुन्छ कि तपाईं आइडी सहित शुल्क त्याग गर्न चाहनुहुन्छ?",
       "Are you sure you want to waive charges": "के तपाईं {{ count }} शुल्कहरू माफ गर्न निश्चित हुनुहुन्छ",
+      "Are you sure you want to undo last reset action": "के तपाईं अन्तिम रिसेट कार्य पूर्ववत गर्न निश्चित हुनुहुन्छ?",
       "Are you sure you want to undo this transaction ?": "के तपाईं निश्चित हुनुहुन्छ कि तपाईं यस लेन-देनलाई पूर्वस्थिति मा पर्खन चाहनुहुन्छ?",
       "Are you sure you want recover from Guarantor": "के तपाईं निश्चित हुनुहुन्छ कि तपाईं ग्यारान्टरबाट पुनर्प्राप्त गर्न चाहनुहुन्छ?",
       "Are you sure you want recover the Original Schedule": "के तपाईं निश्चित हुनुहुन्छ कि तपाईं मौलिक तालिका पुनर्प्राप्त गर्न चाहनुहुन्छ?",
@@ -3369,6 +3395,8 @@
       "undo_account_transfer": "के तपाईं यो खाता स्थानान्तरण रद्द गर्न निश्चित हुनुहुन्छ?"
     },
     "text": {
+      "Max": "अधिकतम",
+      "Hidden variables and predefined values are included in the final payload automatically.": "Hidden variables and predefined values are included in the final payload automatically.",
       "No Breach Actions": "कुनै उल्लंघन कार्यहरू छैन",
       "No Near Breach Actions": "कुनै नजिकको उल्लंघन कार्यहरू छैन",
       "A": "ए",
@@ -3742,6 +3770,12 @@
       "Loan Documents": "ऋण कागजातहरू",
       "Loan Originators": "ऋण सुरुवातकर्ताहरू",
       "Loan Originators are associated with loan accounts": "ऋण सुरुवातकर्ताहरू ऋण खाताहरूसँग सम्बन्धित छन्",
+      "Visible Columns": "देखिने स्तम्भहरू",
+      "No columns selected": "कुनै स्तम्भ चयन गरिएको छैन",
+      "Loan Fields": "ऋण फिल्डहरू",
+      "Data Tables": "डाटा तालिकाहरू",
+      "No data tables": "कुनै डाटा तालिका फेला परेन",
+      "Failed to load": "लोड गर्न असफल भयो",
       "Loan Products": "ऋण उत्पादनहरू",
       "Loan Provisioning Criteria Organization": "संस्थाको लागि ऋण प्रावधान मापदण्ड परिभाषित गर्नुहोस्",
       "Loan Reschedules": "ऋण पुन: तालिका",
@@ -3974,6 +4008,10 @@
       "Table": "तालिका",
       "Tax Components": "कर अवयवहरू",
       "Tellers": "टेलरहरू",
+      "Template defaults are preloaded": "Template defaults are preloaded",
+      "Select a product below": "Select a product below",
+      "Upcoming": "आगामी",
+      "Complete control over every aspect of product behavior": "उत्पादनको व्यवहारको हरेक पक्षमा पूर्ण नियन्त्रण — मोरेटोरियम र अनुदानदेखि बहु-किस्ता संरचना, बाँडफाँट नियमहरू, र त्यसभन्दा पनि बढी।",
       "Template I am trying to use": "यो टेम्प्लेट हो जुन म प्रयोग गर्न खोज्दै छु। त्यो ठीक छ?",
       "Templates": "टेम्प्लेटहरू",
       "Tenant": "किरायेदार",
@@ -4127,7 +4165,22 @@
       "withoutCategory": "बिना श्रेणी",
       "Maker-Checker principle requires every tasks": "सिद्धान्तले त्रुटि र दुरुपयोगको सम्भावना कम गर्न प्रत्येक कार्यहरू दुई व्यक्तिद्वारा पूरा गर्न आवश्यक छ। एक व्यक्तिले प्रक्रिया सुरु गर्छ र दोस्रोले यसलाई पूरा गर्दछ।",
       "Breach Actions": "उल्लङ्घन कार्यहरू",
-      "“Maker-Checker” principle requires every tasks": "\"मेकर-चेकर\" सिद्धान्तले त्रुटि र दुरुपयोगको सम्भावना कम गर्न प्रत्येक कार्यहरू दुई व्यक्तिद्वारा पूरा गर्न आवश्यक छ। एक व्यक्तिले प्रक्रिया सुरु गर्छ र दोस्रोले यसलाई पूरा गर्दछ।"
+      "“Maker-Checker” principle requires every tasks": "\"मेकर-चेकर\" सिद्धान्तले त्रुटि र दुरुपयोगको सम्भावना कम गर्न प्रत्येक कार्यहरू दुई व्यक्तिद्वारा पूरा गर्न आवश्यक छ। एक व्यक्तिले प्रक्रिया सुरु गर्छ र दोस्रोले यसलाई पूरा गर्दछ।",
+      "SavingsAccountsStayedLockedBusinessEvent": "Savings Accounts Stayed Locked Business Event",
+      "WorkingCapitalLoanDisbursalTransactionBusinessEvent": "Working Capital Loan Disbursal Transaction Business Event",
+      "WorkingCapitalLoanUndoDisbursalTransactionBusinessEvent": "Working Capital Loan Undo Disbursal Transaction Business Event",
+      "WorkingCapitalLoanRepaymentTransactionBusinessEvent": "Working Capital Loan Repayment Transaction Business Event",
+      "WorkingCapitalLoanCreditBalanceRefundTransactionBusinessEvent": "Working Capital Loan Credit Balance Refund Transaction Business Event",
+      "WorkingCapitalLoanDiscountFeeTransactionBusinessEvent": "Working Capital Loan Discount Fee Transaction Business Event",
+      "WorkingCapitalLoanDiscountFeeAdjustmentTransactionBusinessEvent": "Working Capital Loan Discount Fee Adjustment Transaction Business Event",
+      "WorkingCapitalLoanChargeAdjustmentPreBusinessEvent": "Working Capital Loan Charge Adjustment Pre Business Event",
+      "WorkingCapitalLoanChargeAdjustmentPostBusinessEvent": "Working Capital Loan Charge Adjustment Post Business Event",
+      "SavingsAccountForceWithdrawalBusinessEvent": "Savings Account Force Withdrawal Business Event",
+      "All Loan Products": "सबै ऋण उत्पादनहरू",
+      "All Offices": "सबै कार्यालयहरू",
+      "No loan was found": "कुनै ऋण फेला परेन",
+      "SearchByLoan": "खाता नम्बर, ऋणी, वा उत्पादनद्वारा खोज्नुहोस्",
+      "Map tiles unavailable": "नक्साका टाइलहरू उपलब्ध छैनन्"
     },
     "permissions": {
       "actions": {
@@ -4465,6 +4518,27 @@
         },
         "own.account": "आफ्नै खाता",
         "other.bank": "अन्य बैंक"
+      }
+    },
+    "cbild": {
+      "creditProfile": {
+        "ficoScore": "FICO स्कोर",
+        "riskBand": "जोखिम ब्यान्ड",
+        "bureau": "ब्यूरो",
+        "pulledAt": "अन्तिम पटक",
+        "expiry": "म्याद समाप्ति",
+        "delinquencies": "बक्यौता",
+        "firstDelinquency": "पहिलो बक्यौता",
+        "none": "छैन",
+        "yes": "छ",
+        "scoreDropAlert": "FICO स्कोर घटेको",
+        "hasDelinquencies": "बक्यौता रेकर्ड छ",
+        "tradelines": "क्रेडिट लाइन",
+        "noTradelines": "कुनै लाइन छैन",
+        "balance": "शेष",
+        "latePayments": "ढिलो भुक्तानी",
+        "noData": "प्रोफाइल उपलब्ध छैन",
+        "noDataHint": "ब्यूरो जाँच चलाउनुहोस्"
       }
     }
   },

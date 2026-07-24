@@ -475,6 +475,7 @@
     "accounting": {
       "Accrual (periodic)": "Devengo (periódico)",
       "Accrual (upfront)": "Devengo (adelantado)",
+      "ACC_DEF_REV_AM": "Acumulación con amortización de ingresos diferidos",
       "CASH_BASED": "Efectivo",
       "Cash": "Efectivo",
       "NONE": "Ninguno",
@@ -577,6 +578,8 @@
       "Create Interest Refund": "Crear reembolso de intereses",
       "Create Journal Entries": "Crear entradas de diario",
       "Create Loan Product": "Crear producto de Crédito",
+      "Create Loan Product (Classic)": "Create Loan Product (Classic)",
+      "Create Loan Product (Convenient)": "Create Loan Product (Convenient)",
       "Create Office": "Crear Oficina",
       "Create Payment Type": "Crear Tipo de Pago",
       "Create Preference": "Crear Preferencia",
@@ -741,6 +744,7 @@
       "Unassign Staff": "Desasignar Asesor",
       "Undo": "Reversar",
       "Undo Rejection": "Reversar rechazo",
+      "Undo Reset": "Deshacer reinicio",
       "Undo Transfer": "Reversar transferencia",
       "Unpin": "Desanclar",
       "Update Default Savings": "Actualizar ahorros predeterminados",
@@ -772,7 +776,8 @@
       "Yes": "Sí",
       "undo_account_transfer": "Revertir transferencia de cuenta",
       "All": "Todos",
-      "Pause Breach": "Pausar Incumplimiento"
+      "Pause Breach": "Pausar Incumplimiento",
+      "Resume Breach": "Reanudar Incumplimiento"
     },
     "catalogs": {
       "% Amount": "% Monto",
@@ -1123,6 +1128,10 @@
     },
     "heading": {
       "Breach Actions": "Acciones de Incumplimiento",
+      "Delinquency & Breach": "Morosidad e Incumplimiento",
+      "Interest": "Interés",
+      "Multi-step form": "Multi-step form",
+      "Loan product creation": "Loan product creation",
       "Near Breach Actions": "Acciones de Incumplimiento inminente",
       "About Us": "Sobre Nosotros",
       "Account Information": "Información de la Cuenta",
@@ -1558,6 +1567,7 @@
       "Unassign Role": "Desasignar rol",
       "Unassign Staff": "Desasignar Asesor",
       "Undo": "Reversar",
+      "Undo Reset": "Deshacer reinicio",
       "Undo Transaction": "Reversar transacción",
       "Upcoming Charges": "Próximos cargos",
       "Upload": "Subir",
@@ -1588,9 +1598,13 @@
       "undo_account_transfer": "Revertir transferencia de cuenta",
       "Loan Breach Actions": "Acciones de Incumplimiento del Préstamo",
       "No Breach Actions": "Sin Acciones sobre Brechas",
-      "Pause Timeline": "Línea de Tiempo de Pausas"
+      "Pause Timeline": "Línea de Tiempo de Pausas",
+      "Location Map": "Mapa de ubicación"
     },
     "inputs": {
+      "Annual interest rate": "Annual interest rate",
+      "Annual interest rate by loan cycle": "Annual interest rate by loan cycle",
+      "Annual interest rate frequency": "Annual interest rate frequency",
       "Breach Actions": "Acciones de Incumplimiento",
       "# Remittance": "# Remesa",
       "# Senders": "# Remitentes",
@@ -2013,6 +2027,7 @@
       "Discount Default": "Descuento predeterminado",
       "Discount Factor": "Factor de descuento",
       "Discount Fee": "Tarifa de descuento",
+      "Discount Fee Adjustment": "Ajuste de la Tarifa de Descuento",
       "Discount Fee Balance": "Saldo comisión de descuento",
       "Discount External Id": "Id externo del descuento",
       "Discount External Id must differ from External Id": "El Id externo del descuento debe ser distinto del Id externo",
@@ -2229,6 +2244,7 @@
       "Illegible document": "Documento ilegible",
       "Images": "Imágenes",
       "Import Time": "Hora de importación",
+      "In Arrears": "En Mora",
       "In Balance": "En Balance",
       "In Multiples Of": "En múltiplos de",
       "In advance": "Por adelantado",
@@ -2499,6 +2515,7 @@
       "Multiple Debit Entries Allowed": "Se permiten múltiples asientos de débito",
       "Municipality": "Municipio",
       "N/A": "N / A",
+      "Net Disbursal Amount": "Monto Neto a Desembolsar",
       "New": "Nuevo",
       "NID": "NID",
       "NPV Value": "Valor Actual Neto",
@@ -2823,6 +2840,7 @@
       "Revised Meeting Date": "Fecha de reunión revisada",
       "Role": "Rol",
       "Role Description": "Descripción del rol",
+      "Schedule": "Schedule",
       "System": "Sistema",
       "This role provides all application permissions": "Este rol proporciona todos los permisos de la aplicación.",
       "Role Name": "Nombre de rol",
@@ -2920,6 +2938,7 @@
       "Standing Instruction Type": "Tipo de instrucción permanente",
       "Standing Instructions": "Instrucciones permanentes",
       "Start Date": "Fecha de inicio",
+      "Start new period": "Iniciar nuevo período",
       "Start Time": "Hora de inicio",
       "Started On": "Iniciado en",
       "Starting date": "Fecha de inicio",
@@ -3000,6 +3019,8 @@
       "Total Interest Earned": "Interés total ganado",
       "Total No. of Shares": "Número total de acciones",
       "Total Number of Shares": "Número total de acciones",
+      "Total Outstanding": "Total Pendiente",
+      "Total Overdue": "Total Vencido",
       "Total Paid": "Total Pagado",
       "Total Paid Principal": "Principal Total Pagado",
       "Total Payment": "Pago total",
@@ -3153,7 +3174,6 @@
       "to": "a",
       "valid": "válido",
       "Active Pause": "Pausa Activa",
-      "Breach Actions": "Acciones de Incumplimiento",
       "days": "días",
       "Duration": "Duración",
       "Expired": "Expirada",
@@ -3166,7 +3186,11 @@
       "Scheduled": "Programada",
       "Today": "Hoy",
       "Total Actions": "Acciones Totales",
-      "Total Days Paused": "Total de Días en Pausa"
+      "Total Days Paused": "Total de Días en Pausa",
+      "Credit Profile": "Perfil de crédito",
+      "Borrower": "Prestatario",
+      "Latitude": "Latitud",
+      "Longitude": "Longitud"
     },
     "links": {
       "Community": "Comunidad",
@@ -3343,6 +3367,7 @@
       "Withdrawn": "Retirado"
     },
     "dialogContext": {
+      "Are you sure you want to resume the breach pause": "¿Estás seguro de que quieres reanudar la pausa del incumplimiento?",
       "Are you sure you want Unassign Staff": "¿Estás seguro de que deseas desasignar al asesor?",
       "Are you sure you want to calculate interest ?": "¿Estás seguro de que deseas calcular los intereses?",
       "Are you sure you want to post interest ?": "¿Estás seguro de que deseas contabilizar los intereses?",
@@ -3350,6 +3375,7 @@
       "Disable withhold tax for this account ?": "¿Quieres deshabilitar la retención de impuestos para esta cuenta?",
       "Are you sure you want to waive charge with id:": "¿Estás seguro de que deseas eximir el cargo con ID:",
       "Are you sure you want to waive charges": "¿Está seguro de que desea renunciar a {{ count }} cargos",
+      "Are you sure you want to undo last reset action": "¿Está seguro de que desea deshacer la última acción de reinicio?",
       "Are you sure you want to undo this transaction ?": "¿Estás seguro de que deseas reversar esta transacción?",
       "Are you sure you want recover from Guarantor": "¿Estás seguro de que deseas recuperar del aval?",
       "Are you sure you want recover the Original Schedule": "¿Estás seguro de que deseas recuperar el Calendario Original?",
@@ -3374,6 +3400,8 @@
       "undo_account_transfer": "¿Está seguro de que desea revertir esta transferencia de cuenta?"
     },
     "text": {
+      "Max": "Máx",
+      "Hidden variables and predefined values are included in the final payload automatically.": "Hidden variables and predefined values are included in the final payload automatically.",
       "No Breach Actions": "Sin acciones de incumplimiento",
       "No Near Breach Actions": "Sin acciones de incumplimiento inminente",
       "A": "Una",
@@ -3753,6 +3781,12 @@
       "Loan Documents": "Documentos de Crédito",
       "Loan Originators": "Comisionistas de créditos",
       "Loan Originators are associated with loan accounts": "Los Comisionistas de créditos están asociados con cuentas de créditos",
+      "Visible Columns": "Columnas visibles",
+      "No columns selected": "No hay columnas seleccionadas",
+      "Loan Fields": "Campos del Préstamo",
+      "Data Tables": "Tablas de datos",
+      "No data tables": "No hay tablas de datos",
+      "Failed to load": "Error al cargar",
       "Loan Products": "Productos de Crédito",
       "Loan Provisioning Criteria Organization": "Definir criterios de concesión de Créditos para la organización",
       "Loan Reschedules": "Reprogramaciones de Créditos",
@@ -3990,6 +4024,10 @@
       "Table": "Tabla",
       "Tax Components": "Componentes tributarios",
       "Tellers": "Cajeros",
+      "Template defaults are preloaded": "Template defaults are preloaded",
+      "Select a product below": "Select a product below",
+      "Upcoming": "Próximamente",
+      "Complete control over every aspect of product behavior": "Control total sobre cada aspecto del comportamiento del producto — desde la moratoria y la subvención hasta las estructuras de múltiples tramos, las reglas de prorrateo y mucho más.",
       "Template I am trying to use": "Esta es la plantilla que estoy intentando utilizar. Eso está bien.",
       "Templates": "Plantillas",
       "Tenant": "Inquilino",
@@ -4143,7 +4181,22 @@
       "withoutCategory": "Sin categoría",
       "Maker-Checker principle requires every tasks": "El principio Maker-Checker requiere que dos personas completen cada tarea para reducir la posibilidad de errores y uso indebido. Una persona inicia el proceso y la segunda lo completa.",
       "Breach Actions": "Acciones de Incumplimiento",
-      "“Maker-Checker” principle requires every tasks": "El principio \"Maker-Checker\" requiere que dos personas completen cada tarea para reducir la posibilidad de errores y uso indebido. Una persona inicia el proceso y la segunda lo completa."
+      "“Maker-Checker” principle requires every tasks": "El principio \"Maker-Checker\" requiere que dos personas completen cada tarea para reducir la posibilidad de errores y uso indebido. Una persona inicia el proceso y la segunda lo completa.",
+      "SavingsAccountsStayedLockedBusinessEvent": "Savings Accounts Stayed Locked Business Event",
+      "WorkingCapitalLoanDisbursalTransactionBusinessEvent": "Working Capital Loan Disbursal Transaction Business Event",
+      "WorkingCapitalLoanUndoDisbursalTransactionBusinessEvent": "Working Capital Loan Undo Disbursal Transaction Business Event",
+      "WorkingCapitalLoanRepaymentTransactionBusinessEvent": "Working Capital Loan Repayment Transaction Business Event",
+      "WorkingCapitalLoanCreditBalanceRefundTransactionBusinessEvent": "Working Capital Loan Credit Balance Refund Transaction Business Event",
+      "WorkingCapitalLoanDiscountFeeTransactionBusinessEvent": "Working Capital Loan Discount Fee Transaction Business Event",
+      "WorkingCapitalLoanDiscountFeeAdjustmentTransactionBusinessEvent": "Working Capital Loan Discount Fee Adjustment Transaction Business Event",
+      "WorkingCapitalLoanChargeAdjustmentPreBusinessEvent": "Working Capital Loan Charge Adjustment Pre Business Event",
+      "WorkingCapitalLoanChargeAdjustmentPostBusinessEvent": "Working Capital Loan Charge Adjustment Post Business Event",
+      "SavingsAccountForceWithdrawalBusinessEvent": "Savings Account Force Withdrawal Business Event",
+      "All Loan Products": "Todos los productos de crédito",
+      "All Offices": "Todas las sucursales",
+      "No loan was found": "No se encontró ningún crédito",
+      "SearchByLoan": "Buscar por número de cuenta, prestatario o producto",
+      "Map tiles unavailable": "Los mosaicos del mapa no están disponibles"
     },
     "permissions": {
       "actions": {
@@ -4481,6 +4534,27 @@
         },
         "own.account": "Cuenta Propia",
         "other.bank": "Otro Banco"
+      }
+    },
+    "cbild": {
+      "creditProfile": {
+        "ficoScore": "Puntuación FICO",
+        "riskBand": "Banda de riesgo",
+        "bureau": "Buró",
+        "pulledAt": "Última consulta",
+        "expiry": "Fecha de vencimiento",
+        "delinquencies": "Morosidades",
+        "firstDelinquency": "Primera morosidad",
+        "none": "Ninguna",
+        "yes": "Sí",
+        "scoreDropAlert": "Puntuación FICO ha bajado",
+        "hasDelinquencies": "Cliente tiene morosidades",
+        "tradelines": "Líneas de crédito",
+        "noTradelines": "Sin líneas de crédito",
+        "balance": "Saldo",
+        "latePayments": "Pagos tardíos",
+        "noData": "Sin perfil de crédito aún",
+        "noDataHint": "Ejecute primero la verificación del buró"
       }
     }
   },
